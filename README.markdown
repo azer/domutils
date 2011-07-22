@@ -3,12 +3,12 @@ Stand-alone, CommonJS compliant library to aid basic DOM operations.
 Install
 =======
 From NPM:
-```bash
+```
 $ npm install domutils
 ```
 
 Or, from Github:
-```bash
+```
 $ curl https://github.com/azer/domutils/raw/master/lib/domutils.js -o domutils.js
 ```
 
@@ -47,6 +47,7 @@ Development
 ===========
 status: under development
 todo:
+
   * Extend Documentation
   * Switch to better testing suite
   * Complete lacking tests
