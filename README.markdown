@@ -3,27 +3,31 @@ Stand-alone, CommonJS compliant library to aid basic DOM operations.
 Install
 =======
 From NPM:
-    $ npm install domutils
+```bash
+$ npm install domutils
+```
 
 Or, from Github:
-    $ curl https://github.com/azer/domutils/raw/master/lib/domutils.js -o domutils.js
+```bash
+$ curl https://github.com/azer/domutils/raw/master/lib/domutils.js -o domutils.js
+```
 
 Usage
 =====
 On a CommonJS compliant environment (JSBuild, Browserify, RequireJS etc.)
 
 ```javascript
-    > var domutils = require('domutils');
-    > domutils.attr(domutils.select('form.login'), 'method', 'POST');
+> var domutils = require('domutils');
+> domutils.attr(domutils.select('form.login'), 'method', 'POST');
 ```
 
 On a classic browser environment:
 
 ```html
-    <script src="domutils.js"></script>
+<script src="domutils.js"></script>
 ```
 ```javascript
-    > domutils.on(window, 'DOMContentLoaded', doSomething);
+> domutils.on(window, 'DOMContentLoaded', doSomething);
 ```
 
 
@@ -43,6 +47,6 @@ Development
 ===========
 status: under development
 todo:
-* Extend Documentation
-* Switch to better testing suite
-* Complete lacking tests
+  * Extend Documentation
+  * Switch to better testing suite
+  * Complete lacking tests
