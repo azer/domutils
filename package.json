@@ -1,0 +1,9 @@
+{
+  "name":"domutils",
+  "version":"1.0.0",
+  "description":"Stand-alone, CommonJS compliant library to aid basic DOM operations.",
+  "author":"Azer Koculu <azer@kodfabrik.com>",
+  "keywords":["dom"],
+  "directories":{ "lib": "./lib" },
+  "main":"./lib/domutils.js"
+}
